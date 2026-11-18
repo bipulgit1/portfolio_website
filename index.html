@@ -1,0 +1,402 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bipul Koirala — Product Designer & Frontend Engineer</title>
+<meta name="description" content="Bipul Koirala is a product designer and frontend engineer in Chatara, Nepal. He designs and builds clear digital products for remote clients.">
+<link rel="canonical" href="https://example.com/">
+<meta name="theme-color" content="#FAFAF8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bipul Koirala — Product Designer & Frontend Engineer">
+<meta property="og:description" content="Product design, frontend engineering and digital consulting. Based in Nepal, working remotely.">
+<meta property="og:url" content="https://example.com/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Bipul Koirala — Product Designer & Frontend Engineer">
+<meta name="twitter:description" content="Product design, frontend engineering and digital consulting. Based in Nepal, working remotely.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='18' font-weight='700' text-anchor='middle' fill='%23FAFAF8'%3EB%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Bipul Koirala","jobTitle":"Product Designer and Frontend Engineer","address":{"@type":"PostalAddress","addressLocality":"Chatara","addressCountry":"NP"},"email":"mailto:hello@example.com","url":"https://example.com/","sameAs":["https://www.linkedin.com/in/your-handle","https://github.com/your-handle"]}
+</script>
+<style>
+:root{
+  --bg:#FAFAF8;--fg:#111;--muted:#55554F;--rule:#DAD9D2;--accent:#B4361A;--card:#F2F1EC;
+  --font:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --hh:64px;
+}
+:root[data-theme="dark"]{--bg:#121211;--fg:#F3F2EC;--muted:#A9A89F;--rule:#2F2F2C;--accent:#FF8A6B;--card:#1B1B19}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121211;--fg:#F3F2EC;--muted:#A9A89F;--rule:#2F2F2C;--accent:#FF8A6B;--card:#1B1B19}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--hh) + 16px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:1rem/1.6 var(--font);font-size:clamp(1rem,.95rem + .25vw,1.125rem);overflow-x:hidden}
+a{color:inherit;text-underline-offset:.2em}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:12px;top:-60px;background:var(--fg);color:var(--bg);padding:12px 16px;z-index:100;border-radius:4px}
+.skip:focus{top:12px}
+header.site{position:sticky;top:0;z-index:50;height:var(--hh);background:color-mix(in srgb,var(--bg) 94%,transparent);border-bottom:1px solid var(--rule);transition:transform .25s ease-out}
+header.site.hide{transform:translateY(-100%)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:100%;gap:16px}
+.mark{font-weight:700;letter-spacing:-.02em;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+nav.main ul{display:flex;gap:4px;list-style:none;margin:0;padding:0;align-items:center}
+nav.main a,.btn-ghost{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;text-decoration:none;font-size:.9375rem;transition:color .15s;border-radius:4px;background:none;border:0;color:inherit;font-family:inherit;cursor:pointer}
+nav.main a[aria-current="true"]{box-shadow:inset 0 -2px 0 var(--accent)}
+nav.main a:hover,.btn-ghost:hover{text-decoration:underline}
+.tools{display:flex;align-items:center;gap:4px}
+.cv{border:1px solid var(--fg)!important;border-radius:999px;padding:0 16px!important}
+.menu-btn{display:none;min-width:44px;min-height:44px;background:none;border:1px solid var(--rule);border-radius:6px;color:inherit;font:inherit;cursor:pointer;padding:0 12px}
+.label{font:500 .75rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 28px;display:flex;align-items:center;gap:12px}
+.label::after{content:"";height:1px;background:var(--rule);flex:1}
+section{padding:clamp(64px,10vw,128px) 0;border-top:1px solid var(--rule)}
+section#top{border-top:0;padding-top:clamp(56px,9vw,120px)}
+h1,h2,h3{margin:0;letter-spacing:-.02em;line-height:1.08}
+h1{font-size:clamp(2.5rem,7vw,5rem);font-weight:700}
+h2{font-size:clamp(1.75rem,4vw,2.75rem);font-weight:650;max-width:22ch}
+h3{font-size:1.25rem;font-weight:650;line-height:1.2}
+p{margin:0 0 1em;max-width:68ch}
+.lede{font-size:clamp(1.125rem,2vw,1.5rem);line-height:1.4;color:var(--fg);max-width:34ch;margin:24px 0 20px;letter-spacing:-.01em}
+.proof{color:var(--muted);max-width:56ch}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:32px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 24px;border-radius:999px;text-decoration:none;font-weight:600;border:1px solid var(--fg);transition:background .15s,color .15s,transform .15s}
+.btn.primary{background:var(--fg);color:var(--bg)}
+.btn.primary:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.secondary:hover{background:var(--fg);color:var(--bg)}
+.status{display:inline-flex;align-items:center;gap:10px;font:.8125rem/1 var(--mono);color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:#1E8E4E;box-shadow:0 0 0 0 rgba(30,142,78,.5);animation:pulse 2.4s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(30,142,78,0)}100%{box-shadow:0 0 0 0 rgba(30,142,78,0)}}
+/* work */
+.work{display:grid;gap:48px}
+.card{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;text-decoration:none;padding:24px;border:1px solid var(--rule);border-radius:12px;transition:border-color .15s,background .15s;background:transparent}
+.card:hover{border-color:var(--fg);background:var(--card)}
+.card .thumb{grid-column:span 7;aspect-ratio:16/10;border-radius:8px;overflow:hidden;background:var(--card)}
+.card .thumb svg{width:100%;height:100%;display:block}
+.card .meta{grid-column:span 5;display:flex;flex-direction:column;gap:12px}
+.card:nth-child(even) .thumb{order:2}
+.card .k{font:.75rem/1.4 var(--mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.card .metric{font-size:2.25rem;font-weight:700;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1}
+.card .metric small{display:block;font:400 .875rem/1.4 var(--font);color:var(--muted);letter-spacing:0;margin-top:6px}
+.card .go{margin-top:auto;font-weight:600;opacity:0;transform:translateX(-6px);transition:opacity .15s,transform .15s;text-decoration:underline;text-underline-offset:.25em}
+.card:hover .go,.card:focus-visible .go{opacity:1;transform:none}
+.card:first-child .metric{color:var(--accent)}
+/* about */
+.about{display:grid;grid-template-columns:repeat(12,1fr);gap:24px 48px}
+.about .text{grid-column:span 7}
+.facts{grid-column:span 5;border-top:1px solid var(--fg);margin:0}
+.facts div{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.facts dt{font:.75rem/1.6 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.facts dd{margin:0}
+/* caps */
+.caps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
+.caps li{padding:24px 0;border-top:1px solid var(--rule)}
+.caps li:nth-child(-n+2){border-top-color:var(--fg)}
+.caps h3{margin-bottom:8px}
+.caps p{margin:0;color:var(--muted)}
+/* quotes */
+blockquote{margin:0 0 40px;padding:0 0 0 24px;border-left:2px solid var(--fg);max-width:60ch}
+blockquote:first-of-type{border-left-color:var(--accent)}
+blockquote p{font-size:clamp(1.125rem,2vw,1.375rem);line-height:1.45;letter-spacing:-.01em}
+blockquote footer{font-size:.9375rem;color:var(--muted)}
+/* contact */
+.big{display:inline-block;font-size:clamp(1.5rem,5.5vw,3.5rem);font-weight:700;letter-spacing:-.03em;line-height:1.1;word-break:break-all;margin:16px 0 28px;text-decoration-thickness:2px;text-decoration-color:var(--accent)}
+.big:hover{text-decoration-color:var(--fg)}
+.links{display:flex;flex-wrap:wrap;gap:8px 24px;list-style:none;padding:0;margin:32px 0 0}
+.links a{display:inline-flex;min-height:44px;align-items:center}
+footer.site{border-top:1px solid var(--rule);padding:32px 0;font-size:.875rem;color:var(--muted)}
+footer.site .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer.site a{display:inline-flex;min-height:44px;align-items:center}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* motion */
+.js .rv{opacity:0;transform:translateY(12px);transition:opacity .45s ease-out,transform .45s ease-out}
+.js .rv.in{opacity:1;transform:none}
+.js .load{opacity:0;transform:translateY(12px);animation:rise .45s ease-out forwards;animation-delay:calc(var(--i)*60ms)}
+@keyframes rise{to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important;transform:none!important}
+  .js .rv,.js .load{opacity:1!important}
+}
+/* mobile */
+@media(max-width:860px){
+  .card .thumb,.card .meta,.about .text,.facts{grid-column:1/-1}
+  .card:nth-child(even) .thumb{order:0}
+  .card .go{opacity:1;transform:none}
+  .caps{grid-template-columns:1fr}
+  .caps li:nth-child(2){border-top-color:var(--rule)}
+}
+@media(max-width:700px){
+  .menu-btn{display:inline-flex;align-items:center}
+  nav.main{display:none}
+  nav.main.open{display:block;position:fixed;inset:0;background:var(--bg);z-index:60;padding:88px 24px 24px}
+  nav.main.open ul{flex-direction:column;align-items:flex-start;gap:8px}
+  nav.main.open a{font-size:2rem;font-weight:650;letter-spacing:-.02em;min-height:56px}
+  .menu-btn[aria-expanded="true"]{position:relative;z-index:70}
+  .cv-top{display:none}
+}
+.facts div{grid-template-columns:100px 1fr}
+@media(max-width:360px){.wrap{padding:0 16px}.card{padding:16px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site" id="hdr">
+  <div class="wrap">
+    <a class="mark" href="#top" aria-label="Bipul Koirala, home">Bipul Koirala</a>
+    <div class="tools">
+      <nav class="main" id="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="cv" href="resume.pdf" download>Résumé</a></li>
+        </ul>
+      </nav>
+      <button class="btn-ghost" id="theme" type="button" aria-label="Toggle dark mode" aria-pressed="false">Theme</button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section id="top" aria-labelledby="h1">
+  <div class="wrap">
+    <p class="status load" style="--i:0"><span class="dot" aria-hidden="true"></span>Available 24/7 for remote projects</p>
+    <h1 id="h1" class="load" style="--i:1;margin-top:24px">Bipul Koirala</h1>
+    <p class="lede load" style="--i:2">I design and build clear digital products, features and solutions for clients.</p>
+    <p class="proof load" style="--i:3">One year of hands-on work across construction software at RCC and engineering projects at Broadway Infosys.</p>
+    <div class="actions load" style="--i:4">
+      <a class="btn primary" href="#work">View work</a>
+      <a class="btn secondary" href="mailto:hello@example.com">Email me</a>
+    </div>
+  </div>
+</section>
+
+<section id="work" aria-labelledby="h-work">
+  <div class="wrap">
+    <p class="label rv">01 — Work</p>
+    <h2 id="h-work" class="rv" style="margin-bottom:48px">Selected work</h2>
+    <div class="work">
+
+      <a class="card rv" href="#contact" aria-label="Construction Building Package, RCC, 2026. View case study">
+        <div class="thumb"><svg viewBox="0 0 160 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect width="160" height="100" fill="var(--card)"/><g fill="none" stroke="var(--fg)" stroke-width=".6"><path d="M20 80V30h50v50zM70 80V50h40v30zM110 80V20h30v60z"/><path d="M20 55h50M45 30v50M110 40h30M110 60h30"/></g><rect x="70" y="50" width="40" height="30" fill="var(--accent)" opacity=".9"/><path d="M10 80h140" stroke="var(--fg)" stroke-width="1"/></svg></div>
+        <div class="meta">
+          <span class="k">RCC · 2026</span>
+          <h3>Construction Building Package</h3>
+          <p>Contractors priced buildings from scattered spreadsheets and phone calls. I designed one package screen that holds scope, materials and cost together.</p>
+          <span class="k">Role: Junior Designer</span>
+          <div class="metric">1 package<small>Replaced separate spreadsheets for each building quote. Swap in your real figure.</small></div>
+          <span class="go">View case study →</span>
+        </div>
+      </a>
+
+      <a class="card rv" href="#contact" aria-label="Engineering systems work, Broadway Infosys, 2026. View case study">
+        <div class="thumb"><svg viewBox="0 0 160 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect width="160" height="100" fill="var(--card)"/><g fill="none" stroke="var(--fg)" stroke-width=".6"><rect x="16" y="18" width="60" height="64" rx="3"/><rect x="88" y="18" width="56" height="28" rx="3"/><rect x="88" y="54" width="56" height="28" rx="3"/><path d="M24 34h44M24 44h30M24 54h38M24 64h22"/></g><circle cx="116" cy="32" r="8" fill="var(--accent)"/></svg></div>
+        <div class="meta">
+          <span class="k">Broadway Infosys · 2026</span>
+          <h3>Internal Dashboard Interface</h3>
+          <p>Staff tracked tasks across tools. I built a plain HTML, CSS and JavaScript dashboard that puts the day's work on one page.</p>
+          <span class="k">Role: Frontend Engineer</span>
+          <div class="metric">1 screen<small>Replaced three separate views. Swap in your real figure.</small></div>
+          <span class="go">View case study →</span>
+        </div>
+      </a>
+
+      <a class="card rv" href="#contact" aria-label="This portfolio, personal project, 2026. View case study">
+        <div class="thumb"><svg viewBox="0 0 160 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect width="160" height="100" fill="var(--card)"/><g stroke="var(--fg)" stroke-width=".6"><path d="M20 24h120M20 40h80M20 56h100M20 72h60" fill="none"/></g><rect x="108" y="64" width="32" height="16" rx="8" fill="var(--accent)"/></svg></div>
+        <div class="meta">
+          <span class="k">Personal · 2026</span>
+          <h3>This Portfolio</h3>
+          <p>I wanted a site that loads instantly and works offline. One HTML file, no frameworks, no external requests.</p>
+          <span class="k">Role: Design and engineering</span>
+          <div class="metric">0 requests<small>Everything ships in a single file.</small></div>
+          <span class="go">View case study →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="about" aria-labelledby="h-about">
+  <div class="wrap">
+    <p class="label rv">02 — About</p>
+    <h2 id="h-about" class="rv" style="margin-bottom:48px">Designer who ships the code.</h2>
+    <div class="about">
+      <div class="text rv">
+        <p>I'm Bipul. I design interfaces and then build them myself, so nothing gets lost between a mockup and the browser. I started in construction software at RCC and moved into engineering work at Broadway Infosys.</p>
+        <p>I have one year of experience and no client work yet, and I would rather say that plainly. I work fast, ask direct questions and show progress early. If you have a messy problem, send it over.</p>
+      </div>
+      <dl class="facts rv">
+        <div><dt>Location</dt><dd>Chatara, Nepal</dd></div>
+        <div><dt>Timezone</dt><dd>NPT, UTC+5:45</dd></div>
+        <div><dt>Experience</dt><dd>1 year</dd></div>
+        <div><dt>Tools</dt><dd>HTML, CSS, JavaScript, Figma</dd></div>
+        <div><dt>Currently</dt><dd>Looking for my first clients</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="capabilities" aria-labelledby="h-cap">
+  <div class="wrap">
+    <p class="label rv">03 — Capabilities</p>
+    <h2 id="h-cap" class="rv" style="margin-bottom:48px">What I can do for you</h2>
+    <ul class="caps rv">
+      <li><h3>Product strategy</h3><p>I turn a vague idea into a short list of features worth building first.</p></li>
+      <li><h3>Product design</h3><p>Wireframes, flows and polished screens you can hand to any developer.</p></li>
+      <li><h3>Engineering solutions</h3><p>Fast, accessible front ends in plain HTML, CSS and JavaScript.</p></li>
+      <li><h3>AI content creation</h3><p>Images, copy and short videos made with AI tools and edited by hand.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section id="words" aria-labelledby="h-words">
+  <div class="wrap">
+    <p class="label rv">04 — Recognition</p>
+    <h2 id="h-words" class="vh">Testimonials</h2>
+    <blockquote class="rv">
+      <p>Bipul turned our building package into something the whole team could read in one glance. He asked good questions and delivered on time.</p>
+      <footer>Placeholder name, Project Lead, RCC</footer>
+    </blockquote>
+    <blockquote class="rv">
+      <p>He builds what he designs. Handoff was never a problem because there was no handoff.</p>
+      <footer>Placeholder name, Team Lead, Broadway Infosys</footer>
+    </blockquote>
+  </div>
+</section>
+
+<section id="contact" aria-labelledby="h-contact">
+  <div class="wrap">
+    <p class="label rv">05 — Contact</p>
+    <h2 id="h-contact" class="rv">Have a problem to solve? Send it over.</h2>
+    <a class="big rv" id="email" href="mailto:hello@example.com">hello@example.com</a>
+    <div class="rv">
+      <button class="btn secondary" id="copy" type="button">Copy email</button>
+      <span id="live" class="vh" aria-live="polite" role="status"></span>
+    </div>
+    <ul class="links rv">
+      <li><a href="https://www.linkedin.com/in/your-handle" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/your-handle" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.behance.net/your-handle" rel="noopener">Behance</a></li>
+      <li><a href="resume.pdf" download>Résumé (PDF)</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Bipul Koirala · Built from scratch</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var d=document,root=d.documentElement;
+  root.classList.add('js');
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  d.getElementById('yr').textContent=new Date().getFullYear();
+
+  /* sticky header hide/show */
+  var hdr=d.getElementById('hdr'),lastY=scrollY,tick=false;
+  addEventListener('scroll',function(){
+    if(tick)return;tick=true;
+    requestAnimationFrame(function(){
+      var y=scrollY;
+      if(!d.getElementById('nav').classList.contains('open')){
+        hdr.classList.toggle('hide',y>lastY&&y>120);
+      }
+      lastY=y;tick=false;
+    });
+  },{passive:true});
+  hdr.addEventListener('focusin',function(){hdr.classList.remove('hide')});
+
+  /* reveal */
+  var rv=d.querySelectorAll('.rv');
+  if(reduce||!('IntersectionObserver' in window)){rv.forEach(function(e){e.classList.add('in')})}
+  else{
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}});
+    },{rootMargin:'0px 0px -8% 0px',threshold:.05});
+    rv.forEach(function(e){io.observe(e)});
+  }
+
+  /* active nav */
+  var links=[].slice.call(d.querySelectorAll('nav.main a[href^="#"]'));
+  var secs=links.map(function(a){return d.querySelector(a.getAttribute('href'))});
+  if('IntersectionObserver' in window){
+    var so=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(e.isIntersecting){
+          links.forEach(function(a){a.removeAttribute('aria-current')});
+          var i=secs.indexOf(e.target);
+          if(i>-1)links[i].setAttribute('aria-current','true');
+        }
+      });
+    },{rootMargin:'-40% 0px -55% 0px'});
+    secs.forEach(function(s){if(s)so.observe(s)});
+  }
+
+  /* mobile menu with focus trap */
+  var btn=d.getElementById('menuBtn'),nav=d.getElementById('nav');
+  function isMobile(){return matchMedia('(max-width:700px)').matches}
+  function focusables(){return [btn].concat([].slice.call(nav.querySelectorAll('a')))}
+  function setMenu(open){
+    nav.classList.toggle('open',open);
+    btn.setAttribute('aria-expanded',open);
+    btn.textContent=open?'Close':'Menu';
+    d.body.style.overflow=open?'hidden':'';
+    if(open){hdr.classList.remove('hide');nav.querySelector('a').focus()}else{btn.focus()}
+  }
+  btn.addEventListener('click',function(){setMenu(btn.getAttribute('aria-expanded')!=='true')});
+  nav.addEventListener('click',function(e){if(e.target.closest('a')&&nav.classList.contains('open')){nav.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.textContent='Menu';d.body.style.overflow=''}});
+  d.addEventListener('keydown',function(e){
+    if(!nav.classList.contains('open')||!isMobile())return;
+    if(e.key==='Escape'){setMenu(false);return}
+    if(e.key==='Tab'){
+      var f=focusables(),first=f[0],last=f[f.length-1];
+      if(e.shiftKey&&d.activeElement===first){e.preventDefault();last.focus()}
+      else if(!e.shiftKey&&d.activeElement===last){e.preventDefault();first.focus()}
+    }
+  });
+  addEventListener('resize',function(){if(!isMobile()&&nav.classList.contains('open')){nav.classList.remove('open');btn.setAttribute('aria-expanded','false');d.body.style.overflow=''}});
+
+  /* theme toggle */
+  var tb=d.getElementById('theme');
+  function dark(){var t=root.getAttribute('data-theme');return t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches}
+  try{var saved=localStorage.getItem('theme');if(saved)root.setAttribute('data-theme',saved)}catch(e){}
+  function sync(){tb.setAttribute('aria-pressed',dark());tb.textContent=dark()?'Light':'Dark'}
+  sync();
+  tb.addEventListener('click',function(){
+    var next=dark()?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next)}catch(e){}
+    sync();
+  });
+
+  /* copy email */
+  var cb=d.getElementById('copy'),live=d.getElementById('live'),em=d.getElementById('email').textContent.trim();
+  function done(ok){
+    live.textContent=ok?'Copied':'Copy failed. Select the email and copy it manually.';
+    cb.textContent=ok?'Copied':'Copy email';
+    setTimeout(function(){cb.textContent='Copy email';live.textContent=''},2200);
+  }
+  cb.addEventListener('click',function(){
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(em).then(function(){done(true)},function(){fallback()});
+    }else fallback();
+  });
+  function fallback(){
+    try{
+      var t=d.createElement('textarea');t.value=em;t.setAttribute('readonly','');t.style.position='fixed';t.style.opacity='0';
+      d.body.appendChild(t);t.select();var ok=d.execCommand('copy');d.body.removeChild(t);done(ok);
+    }catch(e){done(false)}
+  }
+})();
+</script>
+</body>
+</html>
+```
